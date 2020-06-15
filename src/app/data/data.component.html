@@ -1,0 +1,10 @@
+<p>data works!</p>
+
+{{ data$ | async | json }}
+
+<div style="margin-top: 20px">
+  <button (click)="updateId()">Change DKZ</button>
+  <button (click)="updateRegion()">Change Region</button>
+  <button (click)="updateKey()">Change Key</button>
+  <button (click)="clearQueryParams()">Clear Query Params</button>
+</div>
